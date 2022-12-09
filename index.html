@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Image Magnifying Using Magnify JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="magnify.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+    <img src="https://w-dog.ru/wallpaper/vajoming-ssha-grand-teton-nacionalnyj-park-snejk-river-grand-titon-nacionalnyj-park-zakat-oblaka-vecher-gory-pole-cvety-zelen-les-derevya-sosny/id/297505/" id="image" class="zoom" data-magnify-src="https://w-dog.ru/wallpaper/vajoming-ssha-grand-teton-nacionalnyj-park-snejk-river-grand-titon-nacionalnyj-park-zakat-oblaka-vecher-gory-pole-cvety-zelen-les-derevya-sosny/id/297505/">
+    <img src="02.jpg" id="image" class="zoom" data-magnify-src="02.jpg">
+    <img src="03.jpg" id="image" class="zoom" data-magnify-src="03.jpg">
+
+    <script src="jquery.magnify.js" charset="utf-8"></script>
+    <script>
+        $(document).ready(function() {
+            $('.zoom').magnify();
+        });
+    </script>
+
+</body>
+
+</html>
